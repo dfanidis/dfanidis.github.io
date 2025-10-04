@@ -5,15 +5,12 @@
 layout: home
 ---
 
-<img src="/images/home/photo_20250102.jpg" alt="Alt text" style="float: left; margin-right: 15px; width: 200px;"/>
-
-<br>
-<br>
+<img src="/images/home/photo_20250102.jpg" alt="Alt text" style="float: left; margin-right: 15px; width: 150px; height: 200px"/>
 
 I am a computational biologist with strong interest in research and development of _in silico_ methods and tools for the effective exploitation and/or integration of biomedical omics data. Over the years I have built strong interdisciplinary skills bridging biology, clinical diagnosis, data science, and software development which I am eager to apply to new collaborations!
 
-<div style="clear: both;"></div>
-<br>
+<!-- <div style="clear: both;"></div> -->
+<!-- <br> -->
 
 ## Current position
 
