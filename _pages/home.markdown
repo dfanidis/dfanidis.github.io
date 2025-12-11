@@ -1,9 +1,12 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+sitemap: false
+permalink: /
+layout: homelay
 ---
+
+<div class="wrapper">
 
 <img src="/images/home/photo_20250102.jpg" alt="Alt text" style="float: left; margin-right: 15px; width: 150px; height: 200px"/>
 
@@ -15,3 +18,5 @@ I am a computational biologist with strong interest in research and development 
 ## Current position
 
 Currently I am occupied as a post-doctoral researcher in bioinformatics in [biobank.cy](https://biobank.cy/), University of Cyprus. With the application of bleeding-edge and the development of novel algorithms I am analysing genetic diagosis cases for biobank.cy's Diagnostic department, while exploring the Cypriot genome using the rich genomics data of the Center.
+
+</div>

@@ -37,12 +37,6 @@ theme: minima
 # plugins:
 #   - jekyll-twitter-plugin
 
-# Set pages order in header
-header_pages:
-  - cv.markdown
-  - publications.markdown
-  - chapters.markdown
-
 sass:
   sass_dir: _sass
 
