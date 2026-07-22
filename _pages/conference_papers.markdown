@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conference Papers
+title: Conferences
 permalink: /conf_papers/
 ---
 

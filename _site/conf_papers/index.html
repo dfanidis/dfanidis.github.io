@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Conference Papers</title>
+  <title>Conferences</title>
   <meta name="description" content="I am a computational biologist/bioinformatician interested in all things biomedicine.
 ">
   <link rel="stylesheet" href="http://localhost:4000/css/main.css">
@@ -19,7 +19,16 @@
 
   <body>
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <script>
+  function padForNavbar() {
+    var nav = document.querySelector('.navbar-fixed-top');
+    if (nav) document.body.style.paddingTop = nav.offsetHeight + 'px';
+  }
+  window.addEventListener('load', padForNavbar);
+  window.addEventListener('resize', padForNavbar);
+</script>
+
+<div class="navbar navbar-default navbar-sticky-top" role="navigation">
   <div class="container-fluid">
 	<div class="navbar-header">
 	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -32,14 +41,14 @@
     <a class="navbar-brand" href="http://localhost:4000/">Dionysios Fanidis, PhD | Bioinformatics</a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
+	  <ul class="nav navbar-nav navbar-left">
 		<li><a href="http://localhost:4000/">Home</a></li>
 		<li><a href="http://localhost:4000/cv">CV</a></li>
 		<li><a href="http://localhost:4000/publications">Publications</a></li>
 		<!-- <li><a href="http://localhost:4000/research">Research</a></li> -->
 		<li><a href="http://localhost:4000/chapters">Chapters</a></li>
-		<li><a href="http://localhost:4000/conf_papers">Conference papers</a></li>
-		<!-- <li><a href="http://localhost:4000/blog">Blog</a></li> -->
+		<li><a href="http://localhost:4000/conf_papers">Conferences</a></li>
+		<li><a href="http://localhost:4000/openscience">Open science</a></li>
 	  </ul>
 	</div>
   </div>
@@ -51,7 +60,7 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Conference Papers</h1>
+    <h1 class="post-title">Conferences</h1>
   </header>
 
   <div class="post-content">

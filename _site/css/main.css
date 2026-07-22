@@ -8199,7 +8199,7 @@ img {
 }
 
 body {
-  padding-top: 70px;
+  padding-top: 0;
 }
 
 figcaption {
@@ -8311,6 +8311,13 @@ pubtit {
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.navbar-sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1500;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

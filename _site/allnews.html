@@ -18,7 +18,16 @@
 
   <body>
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <script>
+  function padForNavbar() {
+    var nav = document.querySelector('.navbar-fixed-top');
+    if (nav) document.body.style.paddingTop = nav.offsetHeight + 'px';
+  }
+  window.addEventListener('load', padForNavbar);
+  window.addEventListener('resize', padForNavbar);
+</script>
+
+<div class="navbar navbar-default navbar-sticky-top" role="navigation">
   <div class="container-fluid">
 	<div class="navbar-header">
 	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -31,14 +40,14 @@
     <a class="navbar-brand" href="http://localhost:4000/">Dionysios Fanidis, PhD | Bioinformatics</a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
+	  <ul class="nav navbar-nav navbar-left">
 		<li><a href="http://localhost:4000/">Home</a></li>
 		<li><a href="http://localhost:4000/cv">CV</a></li>
 		<li><a href="http://localhost:4000/publications">Publications</a></li>
 		<!-- <li><a href="http://localhost:4000/research">Research</a></li> -->
 		<li><a href="http://localhost:4000/chapters">Chapters</a></li>
-		<li><a href="http://localhost:4000/conf_papers">Conference papers</a></li>
-		<!-- <li><a href="http://localhost:4000/blog">Blog</a></li> -->
+		<li><a href="http://localhost:4000/conf_papers">Conferences</a></li>
+		<li><a href="http://localhost:4000/openscience">Open science</a></li>
 	  </ul>
 	</div>
   </div>
@@ -49,6 +58,9 @@
       <div class="row">
         <div id="textid" class="col-sm-12">
   <h1 id="news">News</h1>
+
+<p>22 July 2026 <br />
+<em>Check out open science projects in the homonym page of the website!</em></p>
 
 <p>21 January 2026 <br />
 <em>A long awaited <a href="https://pubmed.ncbi.nlm.nih.gov/41565682/">paper</a> is finally out! Read to learn about Versican’s protective role in lung fibrosis.</em></p>

@@ -11,7 +11,7 @@ img { margin-bottom: 24px;
 
 
 body {
-	padding-top: 70px;
+	padding-top: 0;
 }
 
 figcaption {
@@ -118,3 +118,6 @@ firstp {
     margin-right: 30px;
 }
 
+.navbar-sticky-top {
+	position: sticky; top: 0; z-index: 1500; margin-bottom: 0
+}
